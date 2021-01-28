@@ -83,14 +83,27 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    background-attachment: fixed;
     color: #FFFFFF;
     font-size: 20px;
     text-align: center;
     padding: 20px;
 }
 
+header{
+    background:
+           /* top, transparent black, faked with gradient */ 
+           linear-gradient(
+             rgba(0, 0, 0, 0.5), 
+             rgba(0, 0, 0, 0.5)
+           ),
+           /* bottom, image */
+           url(../img/h.jpg);
+       }
+
 header h1 {
     color: #FFFFFF;
+    filter: brightness(1);
 }
 
 header p {
@@ -119,6 +132,7 @@ header p {
 }
 
 #sobre .botao {
+    font-size: 18px;
     background-color: #fd1015;
     color: #ffffff;
 }
@@ -128,7 +142,7 @@ header p {
 #serviços {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center;    
     padding: 30px;
 }
 
