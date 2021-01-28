@@ -38,6 +38,10 @@ nav > a {
     font-family: asap, sans-serif;
 }
 
+nav a:hover{
+    color: #fd1015;
+}
+
 nav ul {
     display: flex;
     flex-direction: column;
