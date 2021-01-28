@@ -17,6 +17,10 @@ h1, h2, h3 {
     border-radius: 3px;
 }
 
+.botao:hover {
+    color: #7e73ff;
+}
+
 /* menu */
 
 nav {
@@ -64,9 +68,10 @@ div#zap {
     align-items: center;
     position: fixed;
     left: 0 auto;    
-    top: 85%;
+    top: 50%;
     width: 8em;
     margin-top: -2.5em;
+    border: none;
 }
 
 div#zap li {
@@ -135,6 +140,10 @@ header p {
     font-size: 18px;
     background-color: #fd1015;
     color: #ffffff;
+}
+
+#sobre .botao:hover {
+    color: #7e73ff;
 }
 
 /* serviços */
